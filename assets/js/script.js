@@ -7,3 +7,4 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/')
     console.log(response.data)
 })
 
+const cardImage= document.querySelectorAll('card-image')
