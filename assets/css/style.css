@@ -19,7 +19,12 @@ h1{
    
 }
 .card{
+    margin-top: 50px;
+   padding-bottom: 80px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 15px;
     img{
-      width: 400px;
+      width: 300px;
     }
 }
