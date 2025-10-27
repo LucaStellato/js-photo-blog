@@ -14,7 +14,8 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/')
             if(replaced[i]){
                 const replace=replaced[i]
                  console.log(replace)
-                 cardImage[i].src=element.url
+                 cardImage[i].src=element.url;
+                 cardDate[i].textContent=element.date;
 
 
 
