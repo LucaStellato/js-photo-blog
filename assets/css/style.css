@@ -1,35 +1,39 @@
-*{
+* {
     margin: 0;
 }
 
 
 
 
-body{
-    background-image:url(../img/cork.png);
+body {
+    background-image: url(../img/cork.png);
 }
 
-.title{
-  background-image: url(../img/wall.png);
-h1{
-    text-align: center;
-    font-size:80px;
-    color: black;
-}
-   
-}
-.card{
-    margin-top: 50px;
-   padding-bottom: 80px;
-   padding-left: 15px;
-   padding-right: 15px;
-   padding-top: 15px;
-    img{
-      width: 300px;
+.title1 {
+    background-image: url(../img/wall.png);
+
+    h1 {
+        text-align: center;
+        font-size: 80px;
+        color: black;
     }
-    .button{
+
+}
+
+.card {
+    margin-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+    img {
+        width: 300px;
+    }
+
+    .button {
         width: 50px;
         left: 140px;
-       top: -20px;
+        top: -20px;
     }
 }
