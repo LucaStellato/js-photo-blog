@@ -27,4 +27,9 @@ h1{
     img{
       width: 300px;
     }
+    .button{
+        width: 50px;
+        left: 140px;
+       top: -20px;
+    }
 }
