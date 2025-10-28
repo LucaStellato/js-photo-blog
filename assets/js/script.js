@@ -25,7 +25,7 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/')
     })
 const fullScreen = document.querySelector('.fullscreen')
 const fullImg = document.querySelector('.full-image')
-const button = document.querySelector('.button')
+const buttons = document.querySelector('.buttons')
 function visualScreen(src) {
 
     fullImg.src = src
@@ -33,9 +33,9 @@ function visualScreen(src) {
 }
 
 
-button.addEventListener("click", function () {
+buttons.addEventListener("click", function () {
     fullScreen.style.display = 'none'
 });
 
-
+//sconsole.log(button)
 
