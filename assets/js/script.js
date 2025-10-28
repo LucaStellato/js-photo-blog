@@ -32,11 +32,6 @@ function visualScreen(src){
 }
 
 
-function hiddenFullScreen(){
-  
-    fullImg.style.display='none'
-
-}
 
 
 
