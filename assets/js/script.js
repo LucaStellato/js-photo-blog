@@ -25,8 +25,10 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/')
     })
 
 function visualScreen(src){
-    const fullScreen = document.querySelector('.fullScreen')
-    const fullImg = document.querySelector('.fullImage')
+    const fullScreen = document.querySelector('.fullscreen')
+    const fullImg = document.querySelector('.full-image')
+    fullImg.src=src
+    fullScreen.style.display='flex'
 }
 
 

@@ -37,8 +37,22 @@ body {
 }
 
 
+.fullscreen {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; 
+  justify-content: center;
+  align-items: center;
 
 
+}
 
+.fullscreen img {
+  max-width: 90%;
+  max-height: 90%;
+}
 
 
