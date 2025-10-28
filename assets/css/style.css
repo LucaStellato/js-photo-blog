@@ -7,6 +7,13 @@
 
 body {
     background-image: url(../img/cork.png);
+    .title{
+        font-family: 'Edu Tas Beginner', 'monospace';
+        font-size: 40px;
+    }
+    .date{
+        font-family:'Sometype Mono', ‘monospace’;
+    }
 }
 
 .title1 {
@@ -16,6 +23,7 @@ body {
         text-align: center;
         font-size: 80px;
         color: black;
+        font-family: 'Edu Tas Beginner', 'monospace';
     }
 
 }
