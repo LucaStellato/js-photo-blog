@@ -1,21 +1,26 @@
+/*ALL*/
 * {
     margin: 0;
 }
 
+/*/ALL*/
 
-
-
+/*BODY*/
 body {
     background-image: url(../img/cork.png);
-    .title{
+
+    .title {
         font-family: 'Edu Tas Beginner', 'monospace';
         font-size: 40px;
     }
-    .date{
-        font-family:'Sometype Mono', ‘monospace’;
+
+    .date {
+        font-family: 'Sometype Mono', ‘monospace’;
     }
 }
 
+/*/BODY*/
+/*HEAD*/
 .title1 {
     background-image: url(../img/wall.png);
 
@@ -28,53 +33,60 @@ body {
 
 }
 
+/*/HEAD*/
+/*MAIN*/
 .card {
 
- width: 330px;
- 
- img{
-    width: 300px;
-    margin-top: 12px
- }
+    width: 330px;
+
+    img {
+        width: 300px;
+        margin-top: 12px
+    }
 
     .button {
         width: 40px;
         left: 140px;
         top: -20px;
         position: absolute;
-      
+
     }
 
 
-    
+
 }
 
+/*/MAIN*/
 
+/*FULLSCREEN*/
 .fullscreen {
-  display: none; 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh; 
-  justify-content: center;
-  align-items: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .fullscreen img {
-  max-width: 90%;
-  max-height: 90%;
+    max-width: 90%;
+    max-height: 90%;
 }
 
-.card:hover{
+/*/FULLSCREEN*/
+
+/*HOVER*/
+.card:hover {
     rotate: 20deg;
-    .button{
+
+    .button {
         display: none;
     }
-   
+
 }
 
-
-
+/*/HOVER*/

@@ -4,79 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>js-photo-blog</title>
+    <!--CDN BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--/CDN BOOTSTRAP-->
+    <!--CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!--/CSS-->
+    <!--GOOGLE FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <!--/GOOGLE FONT-->
 </head>
 
 <body>
     <header>
+        <!--TITLE-->
         <div class="title1">
             <h1>ESTATE '24</h1>
         </div>
-
+        <!--/TITLE-->
 
 
     </header>
     <main>
-        <div class=" row  justify-content-center mb-3  mt-5 " >
+        <!--FIRST ROW-->
+        <div class=" row  justify-content-center mb-3  mt-5 ">
+            <!--CARD-->
             <div class="card --bs-body-color position-relative mx-3  col-sm-12 mb-sm-4 col-lg-4 ">
                 <img class="button" src="./assets/img/pin.svg">
-                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png" onclick="visualScreen(this.src)">
+                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png"
+                    onclick="visualScreen(this.src)">
                 <div class="date"></div>
                 <div class="title"></div>
             </div>
-
+            <!--/CARD-->
+            <!--CARD-->
             <div class="card --bs-body-color mx-3  col-sm-12 mb-sm-4 col-lg-4  ">
                 <img class="button position-absolute" src="./assets/img/pin.svg">
-                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png" onclick="visualScreen(this.src)">
+                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png"
+                    onclick="visualScreen(this.src)">
                 <div class="date"></div>
                 <div class="title"></div>
             </div>
+            <!--/CARD-->
+            <!--CARD-->
             <div class="card --bs-body-color mx-3  col-sm-12 mb-sm-4 col-lg-4">
                 <img class="button position-absolute" src="./assets/img/pin.svg">
-               <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png" onclick="visualScreen(this.src)">
+                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png"
+                    onclick="visualScreen(this.src)">
                 <div class="date"></div>
                 <div class="title"></div>
             </div>
-
+            <!--/CARD-->
         </div>
+        <!--/ROW-->
 
 
 
-
+        <!--ROW-->
         <div class="row justify-content-center mb-3 ">
+            <!--CARD-->
             <div class="card --bs-body-color position-relative mx-3 mt-sm-4 col-sm-12 mb-sm-4 col-lg-4 ">
                 <img class="button position-absolute" src="./assets/img/pin.svg">
-               <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png" onclick="visualScreen(this.src)">
+                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png"
+                    onclick="visualScreen(this.src)">
                 <div class="date"></div>
                 <div class="title"></div>
             </div>
+            <!--/CARD-->
+            <!--CARD-->
             <div class="card --bs-body-color mx-3 mt-sm-4 col-sm-12 mb-sm-4 col-lg-4 ">
                 <img class="button position-absolute" src="./assets/img/pin.svg">
-                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png" onclick="visualScreen(this.src)">
+                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png"
+                    onclick="visualScreen(this.src)">
                 <div class="date"></div>
                 <div class="title"></div>
             </div>
+            <!--/CARD-->
+            <!--CARD-->
             <div class="card --bs-body-color mx-3 mt-sm-4 col-sm-12 mb-sm-4 col-lg-4">
                 <img class="button position-absolute" src="./assets/img/pin.svg">
-                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png" onclick="visualScreen(this.src)">
+                <img class="card-image image-fluid" src="./assets/img/Screenshot 2025-10-27 alle 10.21.28.png"
+                    onclick="visualScreen(this.src)">
                 <div class="date"></div>
                 <div class="title"></div>
             </div>
+            <!--/CARD-->
 
         </div>
+        <!--/ROW-->
 
-
+        <!--IMAGE FULL SCREEN-->
         <div class="fullscreen">
             <button class="buttons">Chiudi</button>
             <img class="full-image" src="">
         </div>
-        
+        <!--/IMAGE FULL SCREEN-->
 
     </main>
 
@@ -85,10 +113,16 @@
 
 
 
+    <!--SCRIPT AXIOS-->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!--/SCRIPT AXIOS-->
+    <!--SCRIPT BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <!--/SCRIPT BOOTSTRAP-->
+
+    <!--CONNECTION JS-->
     <script src="./assets/js/script.js"></script>
 </body>
 
