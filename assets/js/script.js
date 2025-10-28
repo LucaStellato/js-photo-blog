@@ -23,16 +23,19 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/')
             }
         })
     })
+const fullScreen = document.querySelector('.fullscreen')
+const fullImg = document.querySelector('.full-image')
+const button = document.querySelector('.button')
+function visualScreen(src) {
 
-function visualScreen(src){
-    const fullScreen = document.querySelector('.fullscreen')
-    const fullImg = document.querySelector('.full-image')
-    fullImg.src=src
-    fullScreen.style.display='flex'
+    fullImg.src = src
+    fullScreen.style.display = 'flex'
 }
 
 
-
+button.addEventListener("click", function () {
+    fullScreen.style.display = 'none'
+});
 
 
 
