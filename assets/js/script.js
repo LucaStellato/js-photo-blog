@@ -37,5 +37,5 @@ buttons.addEventListener("click", function () {
     fullScreen.style.display = 'none'
 });
 
-//sconsole.log(button)
+//console.log(button)
 

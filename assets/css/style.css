@@ -33,7 +33,12 @@ body {
         width: 40px;
         left: 140px;
         top: -20px;
+        position: absolute;
+      
     }
+
+
+    
 }
 
 
@@ -54,4 +59,14 @@ body {
   max-width: 90%;
   max-height: 90%;
 }
+
+.card:hover{
+    rotate: 20deg;
+    .button{
+        display: none;
+    }
+   
+}
+
+
 
