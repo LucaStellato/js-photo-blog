@@ -32,5 +32,11 @@ function visualScreen(src){
 }
 
 
+function hiddenFullScreen(){
+    
+
+}
+
+
 
 
