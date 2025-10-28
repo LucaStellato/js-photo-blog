@@ -70,6 +70,12 @@ body {
     align-items: center;
 
 
+
+}
+.buttons{
+    position: absolute;
+   top:6px;
+
 }
 
 .fullscreen img {
